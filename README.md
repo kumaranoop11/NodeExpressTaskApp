@@ -49,14 +49,3 @@ function shouldCompress (req, res) {
 ```
 
 ## License
-
-[MIT](LICENSE)
-
-[npm-image]: https://img.shields.io/npm/v/compression.svg
-[npm-url]: https://npmjs.org/package/compression
-[travis-image]: https://img.shields.io/travis/expressjs/compression/master.svg
-[travis-url]: https://travis-ci.org/expressjs/compression
-[coveralls-image]: https://img.shields.io/coveralls/expressjs/compression/master.svg
-[coveralls-url]: https://coveralls.io/r/expressjs/compression?branch=master
-[downloads-image]: https://img.shields.io/npm/dm/compression.svg
-[downloads-url]: https://npmjs.org/package/compression
