@@ -1,5 +1,7 @@
-# NodeExpressTaskApp
-Nodejs API's build using Express for Task Management System.
+# Task Management System API
+
+Sample API for Task Management System built using NodeJS
+
 The following tools and technologies being used with their best practices:
 
   - [Express](https://expressjs.com/) - Web application Framework for NodeJS
@@ -11,6 +13,10 @@ The following tools and technologies being used with their best practices:
   - [hbs](https://handlebarsjs.com/) - Express.js template engine plugin for Handlebars.
 
   - [helmet](https://github.com/helmetjs/helmet) - To secure Express/Connect apps from various well-known web vulnerabilities by setting HTTP headers.
+
+  - [passportjs](http://www.passportjs.org/) - Authentication middleware for Node.js
+
+
 
 ## Install
 
@@ -49,3 +55,14 @@ function shouldCompress (req, res) {
 ```
 
 ## License
+
+[MIT](LICENSE)
+
+[npm-image]: https://img.shields.io/npm/v/compression.svg
+[npm-url]: https://npmjs.org/package/compression
+[travis-image]: https://img.shields.io/travis/expressjs/compression/master.svg
+[travis-url]: https://travis-ci.org/expressjs/compression
+[coveralls-image]: https://img.shields.io/coveralls/expressjs/compression/master.svg
+[coveralls-url]: https://coveralls.io/r/expressjs/compression?branch=master
+[downloads-image]: https://img.shields.io/npm/dm/compression.svg
+[downloads-url]: https://npmjs.org/package/compression
