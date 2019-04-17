@@ -1,3 +1,4 @@
+var usersRouter = require('../users/index');
 var express = require('express');
 var router = express.Router();
 var authRouter = require('../authentication/index')
@@ -14,5 +15,7 @@ router.get('/', function(req, res, next) {
 router.use('/auth', authRouter);
 
 router.use('/users', authrization, userRouter);
+
+router.use('/euser', usersRouter);
 
 module.exports = router;

@@ -1,6 +1,7 @@
 module.exports = {
     'secret': 'supersecret',
-    'dbURL' : 'mongodb://127.0.0.1:27017/tms'
+    'dbURL' : 'mongodb://127.0.0.1:27017/tms',
+    'mdbURL': 'mongodb://testUser:testUser1@ds123852.mlab.com:23852/aktestdb'
 }
 
 var config = {
